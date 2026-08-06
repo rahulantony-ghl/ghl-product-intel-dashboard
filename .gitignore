@@ -1,0 +1,16 @@
+# This repo is PUBLIC (GitHub Pages). Nothing here may leak a secret.
+# These files were previously safe only because nobody had run `git add -A`.
+.deploy_key/
+*passphrase*
+*.pem
+*.key
+id_*
+
+# Local build tooling — the repo ships only the encrypted index.html.
+publish.js
+publish.py
+*.bak
+
+# Scratch
+plaintestfile*.txt
+.DS_Store
